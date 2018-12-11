@@ -8,17 +8,160 @@ body {
 
 /***********************Generelt slut*******************/
 
-/*********************index start*********************/
-/*********************index slut*********************/
+/*********************Index start*********************/
+/*********************Index slut*********************/
 
-/***********************home start*******************/
-/***********************home slut*******************/
+/***********************Home start*******************/
+/***********************Home slut*******************/
 
 /***********************Menu start*******************/
 /***********************Menu slut*******************/
 
 
 /***********************Skema start*******************/
+
+.container {
+    background-color: #223249;
+    width: 375;
+    height: 667px;
+
+}
+
+.coulm_top {
+    background-image: url(skema.png);
+    background-repeat: no-repeat;
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    top: 12vw;
+}
+
+h1 {
+    font-family: helvetica neue;
+    font-weight: bold;
+    font-size: 8px;
+    position: absolute;
+    left: 5vw;
+    top: 1vw;
+
+
+}
+
+h2 {
+    font-family: helvetica neue;
+    font-weight: regular;
+    font-size: 10px;
+    position: absolute;
+    left: 5vw;
+    top: 2.5vw;
+}
+
+h3 {
+    font-family: helvetice nue;
+    font-weight: regular;
+    font-size: 40px;
+    position: absolute;
+    top: -5vw;
+    left: 15vw;
+    width: 50vw;
+}
+
+p {
+    font-family: helvetica neue;
+    font-weight: regular;
+    font-size: 16px;
+    left: 5vw;
+    position: absolute;
+    left: 5vw;
+    top: 3vw;
+}
+
+.white-box1 {
+    position: absolute;
+    z-index: 1;
+    top: 100vw;
+    left: 4vw;
+    width: 530px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+
+}
+
+
+.white-box2 {
+    position: absolute;
+    top: 86vw;
+    left: 4vw;
+    width: 530px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+
+}
+
+.white-box3 {
+    position: absolute;
+    top: 72vw;
+    left: 4vw;
+    width: 530px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+
+}
+
+.white-box4 {
+    position: absolute;
+    top: 58vw;
+    left: 4vw;
+    width: 530px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+
+}
+
+.white-box5 {
+    position: absolute;
+    top: 44vw;
+    left: 4vw;
+    width: 530px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+
+}
+
+.white-box6 {
+    position: absolute;
+    top: 30vw;
+    left: 4vw;
+    width: 530px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+
+}
+
 /***********************Skema slut*******************/
 
 /***********************Modul start*******************/
