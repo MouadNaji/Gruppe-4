@@ -34,6 +34,7 @@ body {
     width: 20vw;
     position: absolute;
     top: 12vw;
+    left: 4vw;
 }
 
 h1 {
@@ -49,7 +50,7 @@ h1 {
 
 h2 {
     font-family: helvetica neue;
-    font-weight: regular;
+    font-weight: 500;
     font-size: 10px;
     position: absolute;
     left: 5vw;
@@ -58,6 +59,7 @@ h2 {
 
 h3 {
     font-family: helvetice nue;
+    color: #ffff;
     font-weight: regular;
     font-size: 40px;
     position: absolute;
@@ -66,9 +68,44 @@ h3 {
     width: 50vw;
 }
 
+h4 {
+    font-family: helvetice nue;
+    color: #ffff;
+    font-weight: regular;
+    font-size: 25px;
+    position: absolute;
+    top: 6vw;
+    left: vw;
+    width: 50vw;
+}
+
+h5 {
+    font-family: helvetice nue;
+    color: #ffff;
+    font-weight: regular;
+    font-size: 30px;
+    position: absolute;
+    top: 2vw;
+    left: 35vw;
+    width: 50vw;
+}
+
+h6 {
+    font-family: helvetice nue;
+    color: #ffff;
+    font-weight: regular;
+    font-size: 25px;
+    position: absolute;
+    top: 1vw;
+    left: 70vw;
+    width: 50vw;
+}
+
+
+
 p {
     font-family: helvetica neue;
-    font-weight: regular;
+    font-weight: 400;
     font-size: 16px;
     left: 5vw;
     position: absolute;
