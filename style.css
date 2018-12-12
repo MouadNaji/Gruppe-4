@@ -58,7 +58,7 @@ h2 {
 }
 
 h3 {
-    font-family: helvetice nue;
+    font-family: helvetica nue;
     color: #ffff;
     font-weight: regular;
     font-size: 40px;
@@ -69,7 +69,7 @@ h3 {
 }
 
 h4 {
-    font-family: helvetice nue;
+    font-family: helvetica nue;
     color: #ffff;
     font-weight: regular;
     font-size: 25px;
@@ -80,7 +80,7 @@ h4 {
 }
 
 h5 {
-    font-family: helvetice nue;
+    font-family: helvetica nue;
     color: #ffff;
     font-weight: regular;
     font-size: 30px;
@@ -91,7 +91,7 @@ h5 {
 }
 
 h6 {
-    font-family: helvetice nue;
+    font-family: helvetica nue;
     color: #ffff;
     font-weight: regular;
     font-size: 25px;
@@ -111,6 +111,50 @@ p {
     position: absolute;
     left: 5vw;
     top: 3vw;
+}
+
+.dot {
+    position: absolute;
+    left: 31vw;
+    top: 23vw;
+    height: 5vw;
+    width: 5vw;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+
+}
+
+.venstre_pil {
+    background-image: url(venstre_pil.png);
+    background-repeat: no-repeat;
+    width: 5vw;
+    height: 5vw;
+    top: 24vw;
+    left: 32vw;
+    position: absolute;
+    z-index: 2;
+}
+
+.dot2 {
+    position: absolute;
+    left: 66vw;
+    top: 23vw;
+    height: 5vw;
+    width: 5vw;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+
+}
+
+.right_pil {
+    background-image: url(right_pil.png);
+    background-repeat: no-repeat;
+    width: 5vw;
+    height: 5vw;
+    top: 24vw;
+    left: 67.6vw;
+    position: absolute;
+    z-index: 2;
 }
 
 .white-box1 {
