@@ -199,6 +199,80 @@ p {
 
 }
 
+.blue_trekant1 {
+    background-image: url(trekant.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+    top: vw;
+    left: 53.3vw;
+
+}
+
+.blue_trekant2 {
+    background-image: url(trekant.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 69px;
+    position: absolute;
+    z-index: 1;
+    top: 0.1vw;
+    left: 53.3vw;
+
+}
+
+.gul_trekant1 {
+    background-image: url(trekant_gul.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 69px;
+    position: absolute;
+    z-index: 1;
+    top: 0.2vw;
+    left: 54.1vw;
+
+}
+
+.gul_trekant2 {
+    background-image: url(trekant_gul.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 69px;
+    position: absolute;
+    z-index: 1;
+    top: 0.2vw;
+    left: 54.1vw;
+
+}
+
+.gul_trekant3 {
+    background-image: url(trekant_gul.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 69px;
+    position: absolute;
+    z-index: 1;
+    top: 0.1vw;
+    left: 54.1vw;
+
+}
+
+.red_trekant {
+    background-image: url(trekant_red.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 69px;
+    position: absolute;
+    z-index: 1;
+    top: 0.1vw;
+    left: 53.3vw;
+
+}
+
+
+
 /***********************Skema slut*******************/
 
 /***********************Modul start*******************/
