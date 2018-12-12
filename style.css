@@ -320,4 +320,93 @@ p {
 /***********************Skema slut*******************/
 
 /***********************Modul start*******************/
+
+.white-box7 {
+    position: absolute;
+    z-index: 1;
+    top: 96vw;
+    left: 4vw;
+    width: 530px;
+    height: 110px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+
+}
+
+
+.white-box8 {
+    position: absolute;
+    top: 74vw;
+    left: 4vw;
+    width: 530px;
+    height: 110px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+
+}
+
+.white-box9 {
+    position: absolute;
+    top: 52vw;
+    left: 4vw;
+    width: 530px;
+    height: 110px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+
+}
+
+.white-box10 {
+    position: absolute;
+    top: 30vw;
+    left: 4vw;
+    width: 530px;
+    height: 110px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+
+}
+
+h7 {
+    font-family: helvetica neue;
+    font-weight: regular;
+    font-size: 15;
+    position: absolute;
+    top: 8vw;
+    left: 20vw;
+    color: #E30000
+}
+
+h9 {
+    font-family: helvetica neue;
+    font-weight: regular;
+    font-size: 15;
+    position: absolute;
+    top: 11.5vw;
+    left: 20vw;
+}
+
+h8 {
+    font-family: helvetica neue;
+    font-weight: 300;
+    font-size: 12;
+    position: absolute;
+    top: 13vw;
+    left: 10vw;
+
+
+}
+
 /***********************Modul slut*******************/
