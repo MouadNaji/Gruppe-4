@@ -1,412 +1,709 @@
-/***********************Generelt startt*******************/
-
+/*Index*/
 body {
-    width: 375;
-    height: 667px;
-    border: 0vw;
+    background-color: #223249
 }
 
-/***********************Generelt slut*******************/
+.formgroup {
+    margin-top: 300px;
+    margin-left: 75px;
+    position: absolute;
+    z-index: 2;
+}
 
-/*********************Index start*********************/
-/*********************Index slut*********************/
+.formgroup2 {
+    margin-top: 430px;
+    margin-left: 78px;
+    position: absolute;
+    z-index: 2;
+}
 
-/***********************Home start*******************/
-/***********************Home slut*******************/
 
-/***********************Menu start*******************/
-/***********************Menu slut*******************/
+input[type=text],
+input[type=password],
+input[submit] {
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-right: 5em;
+    padding-left: 1em;
+    border: 3px #223249 solid;
+    font-size: 0.9rem;
+}
 
+input[type=submit] {
+    background-color: #DDDDDD;
+    height: 3em;
+    width: 15.7em;
+    font-size: 1em;
+    border-radius: 15px;
+}
+
+.huskmig {
+    font-size: 0.73rem;
+    color: #fff;
+    letter-spacing: 0.1em;
+    margin-top: 390px;
+    margin-left: 77px;
+    position: absolute;
+    z-index: 2;
+}
+
+.glemtpassword {
+    font-size: 0.73rem;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.1em;
+    margin-top: 394px;
+    margin-left: 230px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+/*Bakgrund*/
+
+.bakgrund {
+    background-color: #223249;
+    width: 375px;
+    height: 667px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.kea {
+    background-image: url("billeder/kea.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80vw;
+    height: 32.4vw;
+    position: absolute;
+    z-index: 2;
+    top: 35vw;
+    left: 9vw;
+}
+
+.person1 {
+    background-image: url("billeder/person1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 52vw;
+    height: 37vw;
+    position: absolute;
+    z-index: 1;
+    top: 4vw;
+    left: 0vw;
+}
+
+.person2 {
+    background-image: url("billeder/person2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 41vw;
+    height: 50vw;
+    position: absolute;
+    z-index: 1;
+    top: 0vw;
+    right: 0vw;
+}
+
+.person3 {
+    background-image: url("billeder/person3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 44vw;
+    height: 39vw;
+    position: absolute;
+    z-index: 1;
+    bottom: 0vw;
+    left: 0vw;
+}
+
+.person4 {
+    background-image: url("billeder/person4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50vw;
+    height: 30vw;
+    position: absolute;
+    z-index: 2;
+    bottom: 0vw;
+    right: 0vw;
+}
+
+/*Home*/
+
+.box {
+    background-color: fff;
+    width: 91vw;
+    height: 20vw;
+    position: relative;
+    border-top: 14px #223249 solid;
+    border-left: 14px #223249 solid;
+    border-right: 14px #223249 solid;
+    margin: -1vw;
+    z-index: 0;
+}
+
+h2 {
+    font-family: 'Pontano Sans', sans-serif;
+    color: #000;
+    font-size: 1.26rem;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    margin-top: 5.5vw;
+    margin-bottom: -1.5vw;
+    margin-left: 5vw;
+}
+
+p {
+    font-family: 'Pontano Sans', sans-serif;
+    color: #000;
+    font-size: 0.73rem;
+    letter-spacing: 0.04em;
+    font-style: normal;
+    margin-left: 5vw;
+    margin-right: 19vw;
+}
+
+.rosa {
+    background-image: url("billeder/rosa.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 40vw;
+    height: 20vw;
+    position: absolute;
+    z-index: -1;
+    bottom: 0vw;
+    right: 0vw;
+}
+
+.blå {
+    background-image: url("billeder/bl%C3%A5.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 40vw;
+    height: 20vw;
+    position: absolute;
+    z-index: 0;
+    bottom: 0vw;
+    right: 0vw;
+}
+
+.gul {
+    background-image: url("billeder/gul.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 40vw;
+    height: 20vw;
+    position: absolute;
+    z-index: -1;
+    bottom: 0vw;
+    right: 0vw;
+}
+
+.gronn {
+    background-image: url("billeder/gr%C3%B8nn.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 40vw;
+    height: 20vw;
+    position: absolute;
+    z-index: 0;
+    bottom: 0vw;
+    right: 0vw;
+}
+
+.pil {
+    background-image: url("billeder/pil.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 7vw;
+    height: 15vw;
+    position: absolute;
+    z-index: 0;
+    bottom: 2vw;
+    right: 2vw;
+}
+
+
+.dagens {
+    background-color: #FFCFCB;
+    width: 91vw;
+    height: 140vw;
+    position: relative;
+    border: 14px #223249 solid;
+    margin: -1vw;
+}
+
+h1 {
+    font-family: 'Pontano Sans', sans-serif;
+    color: #000;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    margin-top: 5.5vw;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+}
+
+.p-dagens {
+    font-family: 'Pontano Sans', sans-serif;
+    color: #000;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    margin-left: 7vw;
+    margin-right: 19vw;
+}
+
+.link {
+    font-family: 'Pontano Sans', sans-serif;
+    font: #06339A;
+    text-decoration: none;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    margin: 6vw;
+}
+
+a {
+    text-decoration: none;
+}
 
 /***********************Skema start*******************/
 
-.container {
+/***Dato**/
+
+.box-dato {
     background-color: #223249;
-    width: 375;
-    height: 667px;
+    width: 375px;
+    height: 120px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
 
 }
 
 .coulm_top {
-    background-image: url(skema.png);
+    background-image: url(billeder/skema.png);
     background-repeat: no-repeat;
-    height: 20vw;
-    width: 20vw;
+    background-size: 100%;
+    height: 10vw;
+    width: 12vw;
     position: absolute;
-    top: 12vw;
-    left: 4vw;
-}
-
-h1 {
-    font-family: helvetica neue;
-    font-weight: bold;
-    font-size: 8px;
-    position: absolute;
-    left: 5vw;
-    top: 1vw;
-
-
-}
-
-h2 {
-    font-family: helvetica neue;
-    font-weight: 500;
-    font-size: 10px;
-    position: absolute;
-    left: 5vw;
-    top: 2.5vw;
-}
-
-h3 {
-    font-family: helvetica nue;
-    color: #ffff;
-    font-weight: regular;
-    font-size: 40px;
-    position: absolute;
-    top: -5vw;
-    left: 15vw;
-    width: 50vw;
-}
-
-h4 {
-    font-family: helvetica nue;
-    color: #ffff;
-    font-weight: regular;
-    font-size: 25px;
-    position: absolute;
-    top: 6vw;
-    left: vw;
-    width: 50vw;
-}
-
-h5 {
-    font-family: helvetica nue;
-    color: #ffff;
-    font-weight: regular;
-    font-size: 30px;
-    position: absolute;
-    top: 2vw;
-    left: 35vw;
-    width: 50vw;
-}
-
-h6 {
-    font-family: helvetica nue;
-    color: #ffff;
-    font-weight: regular;
-    font-size: 25px;
-    position: absolute;
-    top: 1vw;
-    left: 70vw;
-    width: 50vw;
-}
-
-
-
-p {
-    font-family: helvetica neue;
-    font-weight: 400;
-    font-size: 16px;
-    left: 5vw;
-    position: absolute;
-    left: 5vw;
     top: 3vw;
+    left: 2vw;
+    z-index: 2;
 }
+
+/* .coulm_top h1 {
+    font-family: 'Pontano Sans', sans-serif;
+    color: #000;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    margin-top: 5.5vw;
+    margin-bottom: 5vw;
+    margin-left: 5vw; 
+} */
+
+
+}
+
+.dato-big {
+    color: #fff;
+    font-weight: 100;
+    font-size: 1rem;
+    position: absolute;
+    margin: 0;
+    top: 19vw;
+}
+
+#december {
+    left: 15vw;
+    top: 4.2vw;
+    font-size: 1.4rem;
+}
+
+#tirsdag {
+    top: 18vw;
+    left: 31vw;
+    font-size: 1.4rem;
+}
+
+#dag {
+    left: 30vw;
+    top: 4.2vw;
+    font-size: 1.4rem;
+}
+
+#tid1 {
+    top: 18vw;
+    left: 31vw;
+    font-size: 1.4rem;
+}
+
+.dato-small {
+    color: #fff;
+    font-weight: 100;
+    position: absolute;
+    margin: 0;
+}
+
+#mandag {
+    left: 2.5vw;
+    font-size: 0.8rem;
+    top: 19vw;
+}
+
+#onsdag {
+    right: 2.5vw;
+    font-size: 0.8rem;
+    top: 19vw;
+}
+
+#tid2 {
+    right: 2.5vw;
+    font-size: 0.8rem;
+    top: 19vw;
+}
+
 
 .dot {
     position: absolute;
-    left: 31vw;
-    top: 23vw;
-    height: 5vw;
-    width: 5vw;
-    background-color: #FFFFFF;
+    left: 23vw;
+    bottom: 5vw;
+    height: 7vw;
+    width: 7vw;
+    background-color: #FFF;
     border-radius: 50%;
+    z-index: 0;
 
 }
 
 .venstre_pil {
-    background-image: url(venstre_pil.png);
+    background-image: url(billeder/venstre_pil.png);
     background-repeat: no-repeat;
     width: 5vw;
     height: 5vw;
-    top: 24vw;
-    left: 32vw;
+    top: 19vw;
+    left: 24vw;
     position: absolute;
     z-index: 2;
 }
 
 .dot2 {
     position: absolute;
-    left: 66vw;
-    top: 23vw;
-    height: 5vw;
-    width: 5vw;
+    right: 23vw;
+    bottom: 5vw;
+    height: 7vw;
+    width: 7vw;
     background-color: #FFFFFF;
     border-radius: 50%;
+    z-index: 0;
 
 }
 
 .right_pil {
-    background-image: url(right_pil.png);
+    background-image: url(billeder/right_pil.png);
     background-repeat: no-repeat;
     width: 5vw;
     height: 5vw;
-    top: 24vw;
-    left: 67.6vw;
+    top: 19vw;
+    left: 65vw;
     position: absolute;
     z-index: 2;
 }
 
-.white-box1 {
-    position: absolute;
+.modul {
+    background-color: fff;
+    width: 91vw;
+    height: 20vw;
+    position: relative;
+    border-top: 14px #223249 solid;
+    border-left: 14px #223249 solid;
+    border-right: 14px #223249 solid;
+    margin: -1vw;
+    z-index: 0;
+}
+
+.modul p {
+    margin-bottom: -.5rem
+}
+
+.modul h2 {
+    margin-top: .5rem;
+    font-weight: 500;
+    font-size: 4vw;
     z-index: 1;
-    top: 100vw;
-    left: 4vw;
-    width: 530px;
-    height: 70px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-
-
 }
 
 
-.white-box2 {
-    position: absolute;
-    top: 86vw;
-    left: 4vw;
-    width: 530px;
-    height: 70px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
 
 
-}
-
-.white-box3 {
-    position: absolute;
-    top: 72vw;
-    left: 4vw;
-    width: 530px;
-    height: 70px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
 
 
-}
+/***Seksjoner***/
 
-.white-box4 {
-    position: absolute;
-    top: 58vw;
-    left: 4vw;
-    width: 530px;
-    height: 70px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-
-
-}
-
-.white-box5 {
-    position: absolute;
-    top: 44vw;
-    left: 4vw;
-    width: 530px;
-    height: 70px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-
-
-}
-
-.white-box6 {
-    position: absolute;
-    top: 30vw;
-    left: 4vw;
-    width: 530px;
-    height: 70px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-
-
-}
-
-.blue_trekant1 {
-    background-image: url(trekant.png);
-    background-repeat: no-repeat;
-    width: 1000px;
-    height: 70px;
-    position: absolute;
-    z-index: 1;
-    top: vw;
-    left: 53.3vw;
-
-}
-
-.blue_trekant2 {
-    background-image: url(trekant.png);
-    background-repeat: no-repeat;
-    width: 1000px;
-    height: 69px;
-    position: absolute;
-    z-index: 1;
-    top: 0.1vw;
-    left: 53.3vw;
-
-}
-
-.gul_trekant1 {
-    background-image: url(trekant_gul.png);
-    background-repeat: no-repeat;
-    width: 1000px;
-    height: 69px;
-    position: absolute;
-    z-index: 1;
-    top: 0.2vw;
-    left: 54.1vw;
-
-}
-
-.gul_trekant2 {
-    background-image: url(trekant_gul.png);
-    background-repeat: no-repeat;
-    width: 1000px;
-    height: 69px;
-    position: absolute;
-    z-index: 1;
-    top: 0.2vw;
-    left: 54.1vw;
-
-}
-
-.gul_trekant3 {
-    background-image: url(trekant_gul.png);
-    background-repeat: no-repeat;
-    width: 1000px;
-    height: 69px;
-    position: absolute;
-    z-index: 1;
-    top: 0.1vw;
-    left: 54.1vw;
-
-}
-
-.red_trekant {
-    background-image: url(trekant_red.png);
-    background-repeat: no-repeat;
-    width: 1000px;
-    height: 69px;
-    position: absolute;
-    z-index: 1;
-    top: 0.1vw;
-    left: 53.3vw;
-
-}
 
 
 
 /***********************Skema slut*******************/
 
+
+/***********************Header/Menu*******************/
+/***********************Generelt startt*******************/
+
+body {
+    height: 667px;
+    border: 0vw;
+    padding: 0vw;
+    margin: 0vw;
+    padding: 0vw;
+}
+
+
+
+/***********************Generelt slut*******************/
+
+/*********************index start*********************/
+/*********************index slut*********************/
+
+/***********************home start*******************/
+/***********************home slut*******************/
+
+/***********************Header start*******************/
+.hide {
+    display: none;
+}
+
+.header {
+    padding: 20px 0px;
+    background: #000000;
+    position: relative;
+    height: 11vw;
+}
+
+.keaheader {
+    background-image: url(Billeder/47792627_912382298971622_7242664584593539072_n.png);
+    position: relative;
+    width: 25vw;
+    height: 10vw;
+    left: 37vw;
+    background-size: 100%;
+}
+
+
+
+.menuen {
+    padding: 20px 0px;
+    background: #000000;
+    height: 163vw;
+
+}
+
+.white {
+    color: white;
+    text-align: center;
+    border-color: wheat;
+}
+
+.white h1 {
+    color: white;
+}
+
+a {
+    color: white;
+    outline-color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFCFCB
+}
+
+.logud {
+    position: absolute;
+    text-align: center;
+    height: 24vw;
+    width: 90vw;
+    margin: 0vw 3vw 0vw 3vw;
+    background-color: #E1554C;
+}
+
+.logud h1 {
+    position: absolute;
+    left: 34vw;
+    top: 2.1vw;
+}
+
+
+.beholder {
+    position: absolute;
+    background-color: black;
+    width: 9vw;
+    top: 7.5vw;
+    left: 88vw;
+}
+
+.box1 {
+    position: relative;
+    height: 1.1vw;
+    background-color: white;
+
+}
+
+.box2 {
+    position: relative;
+    height: 1.1vw;
+    background-color: white;
+    margin: 1vw 0vw 0vw 0vw
+}
+
+.box3 {
+    position: fi;
+    height: 1.1vw;
+    background-color: white;
+    margin: 1vw 0vw 0vw 0vw
+}
+
+.luk {
+    background-image: url(Billeder/kryds.png);
+    position: absolute;
+    top: 2vw;
+    left: 88vw;
+    height: 8vw;
+    width: 8vw;
+    background-size: 100%;
+
+}
+
+/***********************Header slut*******************/
+
+/***********************Menu start*******************/
+/***********************Menu slut*******************/
+
+
+/***********************Skema start*******************/
+/***********************Skema slut*******************/
+
 /***********************Modul start*******************/
-
-.white-box7 {
-    position: absolute;
-    z-index: 1;
-    top: 96vw;
-    left: 4vw;
-    width: 530px;
-    height: 110px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-
-
-}
-
-
-.white-box8 {
-    position: absolute;
-    top: 74vw;
-    left: 4vw;
-    width: 530px;
-    height: 110px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-
-
-}
-
-.white-box9 {
-    position: absolute;
-    top: 52vw;
-    left: 4vw;
-    width: 530px;
-    height: 110px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-
-
-}
-
-.white-box10 {
-    position: absolute;
-    top: 30vw;
-    left: 4vw;
-    width: 530px;
-    height: 110px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-
-
-}
-
-h7 {
-    font-family: helvetica neue;
-    font-weight: regular;
-    font-size: 15;
-    position: absolute;
-    top: 8vw;
-    left: 20vw;
-    color: #E30000
-}
-
-h9 {
-    font-family: helvetica neue;
-    font-weight: regular;
-    font-size: 15;
-    position: absolute;
-    top: 11.5vw;
-    left: 20vw;
-}
-
-h8 {
-    font-family: helvetica neue;
-    font-weight: 300;
-    font-size: 12;
-    position: absolute;
-    top: 13vw;
-    left: 10vw;
-
-
-}
-
 /***********************Modul slut*******************/
+
+/***********************Header/Menu Slut*******************/
+
+.box-singleview p {
+    border-bottom: 1px #000 solid;
+    margin-right: 20px;
+}
+
+.box-skema h3 {}
+
+
+
+.pin {
+    background-image: url(billeder/pin.png);
+    position: absolute;
+    background-size: 100%;
+    height: 8vw;
+    width: 8vw;
+    left: 4vw;
+    top: 16vw;
+    z-index: 0;
+
+
+}
+
+.singlebox {
+    background-color: fff;
+    width: 91vw;
+    height: 28vw;
+    position: relative;
+    border-top: 14px #223249 solid;
+    border-left: 14px #223249 solid;
+    border-right: 14px #223249 solid;
+    margin: -1vw;
+    z-index: -1;
+}
+
+.singlebox p {
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+    margin-left: .5rem
+}
+
+.singlebox h2 {
+    margin-top: .5rem;
+    font-weight: 500;
+    font-size: 4vw;
+    z-index: 1;
+}
+
+.singlebox h3 {
+    margin-top: 1.5rem;
+    font-weight: 500;
+    font-size: 4vw;
+    z-index: 1;
+    margin-left: 3.5rem
+}
+
+.singlebox h4 {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 4vw;
+    z-index: 1;
+    margin-left: 1rem;
+    text-align: center;
+
+}
+
+.pdf {
+    background-image: url(billeder/pdfs-512.png);
+    position: absolute;
+    background-size: 100%;
+    height: 10vw;
+    width: 8vw;
+}
+
+.dokumenter {
+    display: flex;
+}
+
+.dokumenter img {
+    width: 6vw;
+    margin-left: 7vw;
+}
+
+.lektier {
+    display: flex;
+}
+
+.lektier img {
+    width: 20vw;
+    height: 20vw;
+    margin-top: -2vw
+}
+
+.lektier h4 {
+    font-size: 4vw;
+    margin-left: 0vw
+}
+
+.dokumenter h4 {
+    font-size: 3vw;
+    margin-top: 1vw;
+    margin-left: 6vw
+}
+
+.personer {
+    display: flex;
+
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+h4 {
+    font-family: sans-serif;
+}

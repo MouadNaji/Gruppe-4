@@ -4,52 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Untitled Document</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <title>Login</title>
+    
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-
+    
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-<body class="loginpage">
-
+    
+<body>
+    
+    <div class="bakgrund">
+        <div class="kea"></div>
+        <div class="person1"></div>
+        <div class="person2"></div>
+        <div class="person3"></div>
+        <div class="person4"></div>
+   
+    
     <main class="container">
-
-        <h1 class="frontervskeatitle">Fronter vs. Kea</h1>
 
         <form class="loginform" action="home.html" id="fronterkealoginform">
             <div class="formgroup">
-                <label>Brugernavn</label>
-                <input type="text" placeholder="Indtast Brugernavn">
+                 <input type="text" placeholder="BRUGERNAVN">
+                <input type="password" placeholder="PASSWORD">
             </div>
-            <div class="formgroup">
-                <label>Password</label>
-                <input type="password" placeholder="Indtatst password">
-            </div>
-            <div class="formgroup">
-                <input type="submit" value="Log ind">
-            </div>
+        
 
 
             <div class="huskmig" form="fronterkealoginform">
+                <input type="checkbox">
+                <label>Husk mig</label> 
 
             </div>
 
-            <div class="glemtpassword">
-
+            <a class="glemtpassword" href="glemtpassword.html">Glemt password?</a>
+            
+            <div class="formgroup2">
+                <input type="submit" value="LOG IND">
             </div>
+
         </form>
     </main>
-
-
-    <script src="scripts.js"></script>
-    <script>
-        <!-- JS on the page -->
-
-    </script>
+    </div>  
+        
+    
 </body>
-
-</html>
