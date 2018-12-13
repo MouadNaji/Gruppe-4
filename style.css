@@ -409,4 +409,81 @@ h8 {
 
 }
 
+.dot3 {
+    position: absolute;
+    z-index: 1;
+    left: 10vw;
+    top: 58vw;
+    height: 8vw;
+    width: 8vw;
+    background-color: #ADADAD;
+    border-radius: 50%;
+}
+
+.dot4 {
+    position: absolute;
+    z-index: 1;
+    left: 20vw;
+    top: 58vw;
+    height: 8vw;
+    width: 8vw;
+    background-color: #ADADAD;
+    border-radius: 50%;
+}
+
+.dot5 {
+    position: absolute;
+    z-index: 1;
+    left: 30vw;
+    top: 58vw;
+    height: 8vw;
+    width: 8vw;
+    background-color: #ADADAD;
+    border-radius: 50%;
+}
+
+.dot6 {
+    position: absolute;
+    z-index: 1;
+    left: 40vw;
+    top: 58vw;
+    height: 8vw;
+    width: 8vw;
+    background-color: #ADADAD;
+    border-radius: 50%;
+}
+
+p1 {
+    font-family: helvetica neue;
+    font-size: 12px;
+    position: absolute;
+    top: 8vw;
+    left: 2vw;
+}
+
+p2 {
+    font-family: helvetica neue;
+    font-size: 12px;
+    position: absolute;
+    top: 8vw;
+    left: 2vw;
+}
+
+p3 {
+    font-family: helvetica neue;
+    font-size: 12px;
+    position: absolute;
+    top: 8vw;
+    left: 2vw;
+}
+
+p4 {
+    font-family: helvetica neue;
+    font-size: 12px;
+    position: absolute;
+    top: 8vw;
+    left: 2vw;
+}
+
+
 /***********************Modul slut*******************/
